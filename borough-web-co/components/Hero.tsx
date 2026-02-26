@@ -25,14 +25,19 @@ export default function Hero() {
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
-            We build digital solutions{' '}
-            <span className="text-gradient">that grow your business.</span>
+            Helping Bolton businesses{' '}
+            <span className="text-gradient">get online and get more customers.</span>
           </h1>
 
           {/* Sub-headline */}
-          <p className="text-lg sm:text-xl text-navy-300 leading-relaxed mb-10 max-w-2xl">
-            Borough Web Co. is a Bolton-based technology company delivering websites, mobile apps,
-            e-commerce stores, and digital marketing to businesses across the North West.
+          <p className="text-lg sm:text-xl text-navy-300 leading-relaxed mb-4 max-w-2xl">
+            Borough Web Co. builds clean, affordable websites for local Bolton businesses.
+            No jargon, no hidden fees — just a site that works hard for you.
+          </p>
+
+          {/* Pricing hint */}
+          <p className="text-amber-400 font-semibold text-base mb-10">
+            Websites from £299. No hidden fees.
           </p>
 
           {/* CTAs */}
@@ -57,9 +62,9 @@ export default function Hero() {
           {/* Stats */}
           <div className="mt-16 flex flex-wrap gap-8 sm:gap-12">
             {[
-              { value: '50+', label: 'Projects Delivered' },
-              { value: '100%', label: 'Client Satisfaction' },
-              { value: '5★', label: 'Average Rating' },
+              { value: '📍', label: 'Local & independent' },
+              { value: '⚡', label: 'Fast turnaround' },
+              { value: '£', label: 'Transparent pricing' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl sm:text-3xl font-extrabold text-white">{stat.value}</div>

@@ -40,21 +40,34 @@ export default function About() {
             </ul>
           </div>
 
-          {/* Right — stats cards */}
+          {/* Right — value cards */}
           <div className="grid grid-cols-2 gap-4">
             {[
-              { value: '5+', label: 'Years of Experience', sub: 'Serving North West businesses' },
-              { value: '50+', label: 'Projects Delivered', sub: 'Across multiple industries' },
-              { value: '98%', label: 'Client Retention', sub: 'Long-term partnerships' },
-              { value: '24h', label: 'Support Response', sub: 'We&apos;re always reachable' },
-            ].map((stat) => (
-              <div key={stat.label} className="p-6 rounded-2xl bg-navy-900 border border-navy-800">
-                <div className="text-3xl font-extrabold text-amber-400">{stat.value}</div>
-                <div className="mt-1 text-white font-semibold text-sm">{stat.label}</div>
-                <div
-                  className="mt-1 text-navy-400 text-xs"
-                  dangerouslySetInnerHTML={{ __html: stat.sub }}
-                />
+              {
+                icon: '📍',
+                label: 'Local & independent',
+                sub: 'Bolton-based, face-to-face meetings available',
+              },
+              {
+                icon: '⚡',
+                label: 'Fast turnaround',
+                sub: 'Most sites live within 2–4 weeks',
+              },
+              {
+                icon: '£',
+                label: 'Transparent pricing',
+                sub: 'Fixed quotes, no surprises',
+              },
+              {
+                icon: '🤝',
+                label: 'Ongoing support',
+                sub: 'We stay with you after launch',
+              },
+            ].map((item) => (
+              <div key={item.label} className="p-6 rounded-2xl bg-navy-900 border border-navy-800">
+                <div className="text-3xl mb-2">{item.icon}</div>
+                <div className="text-white font-semibold text-sm">{item.label}</div>
+                <div className="mt-1 text-navy-400 text-xs">{item.sub}</div>
               </div>
             ))}
           </div>
