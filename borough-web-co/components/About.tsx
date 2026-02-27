@@ -7,17 +7,16 @@ export default function About() {
           <div>
             <span className="text-amber-500 text-sm font-semibold uppercase tracking-widest">About Us</span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-white leading-tight">
-              Built in Bolton. <br />Built for Bolton.
+              Built in Bolton. <br />Focused on small business growth.
             </h2>
             <p className="mt-5 text-navy-300 text-lg leading-relaxed">
-              Borough Web Co. was founded with a simple mission: give Bolton&apos;s businesses access
-              to the same quality of digital technology that larger companies in Manchester and London
-              take for granted — at fair, transparent prices.
+              Borough Web Co. was created to give local businesses access to high-quality websites without the complexity or cost of large agencies.
             </p>
             <p className="mt-4 text-navy-400 leading-relaxed">
-              We&apos;re a local team with deep roots in the Greater Manchester area. When you work
-              with us, you&apos;re not dealing with a faceless agency — you get a dedicated partner who
-              genuinely cares about your success and is always a phone call away.
+              We work directly with our clients, keeping communication simple, pricing transparent, and projects delivered on time.
+            </p>
+            <p className="mt-4 text-navy-400 leading-relaxed">
+              Whether you&apos;re launching something new or upgrading an outdated site, we make the process straightforward and stress-free.
             </p>
 
             {/* Key points */}
@@ -25,8 +24,8 @@ export default function About() {
               {[
                 'Local team, local knowledge',
                 'Clear pricing — no hidden fees',
+                'Fast turnaround',
                 'Ongoing support after launch',
-                'Proven results for North West businesses',
               ].map((point) => (
                 <li key={point} className="flex items-center gap-3 text-navy-200">
                   <span className="flex-shrink-0 w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center">

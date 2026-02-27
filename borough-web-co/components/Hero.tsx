@@ -20,24 +20,23 @@ export default function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-semibold tracking-wide uppercase mb-6">
             <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
-            Bolton&rsquo;s Technology Partner
+            Bolton-Based Website Studio
           </div>
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
-            Helping Bolton businesses{' '}
-            <span className="text-gradient">get online and get more customers.</span>
+            Professional websites for local businesses{' '}
+            <span className="text-gradient">that want to grow.</span>
           </h1>
 
           {/* Sub-headline */}
           <p className="text-lg sm:text-xl text-navy-300 leading-relaxed mb-4 max-w-2xl">
-            Borough Web Co. builds clean, affordable websites for local Bolton businesses.
-            No jargon, no hidden fees — just a site that works hard for you.
+            Borough Web Co. builds clean, modern and high-performing websites for businesses across Bolton and Greater Manchester — designed to attract customers and convert visitors into enquiries.
           </p>
 
           {/* Pricing hint */}
           <p className="text-amber-400 font-semibold text-base mb-10">
-            Websites from £299. No hidden fees.
+            Websites starting from £399.
           </p>
 
           {/* CTAs */}

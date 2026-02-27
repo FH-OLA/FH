@@ -1,8 +1,8 @@
 const services = [
-  'Starter Website',
-  'Business Website',
-  'E-Commerce Website',
-  'Website Maintenance',
+  'Website Design & Development',
+  'E-Commerce Websites',
+  'Local SEO Foundations',
+  'Ongoing Support',
 ]
 
 export default function Footer() {

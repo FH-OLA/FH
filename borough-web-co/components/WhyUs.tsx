@@ -9,7 +9,7 @@ const reasons = [
     ),
     title: 'Genuinely Local',
     description:
-      'We know Bolton. We know what local customers respond to. Our proximity means face-to-face meetings, fast turnarounds, and a real stake in your community.',
+      'We understand the Bolton business community and what local customers respond to.',
   },
   {
     icon: (
@@ -20,7 +20,7 @@ const reasons = [
     ),
     title: 'Transparent Pricing',
     description:
-      'Fixed quotes, honest timelines, no surprise invoices. You know exactly what you\'re getting before we start a single line of work.',
+      'Fixed quotes. Clear timelines. No hidden extras.',
   },
   {
     icon: (
@@ -29,9 +29,9 @@ const reasons = [
           d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
-    title: 'Fast & Modern Tech',
+    title: 'Fast & Modern',
     description:
-      'We use industry-leading technologies to ensure your website loads in under 2 seconds, ranks higher on Google, and looks great on every device.',
+      'Built using modern technologies for speed, security and long-term flexibility.',
   },
   {
     icon: (
@@ -40,9 +40,9 @@ const reasons = [
           d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
       </svg>
     ),
-    title: 'End-to-End Support',
+    title: 'Support After Launch',
     description:
-      'We don\'t disappear after launch. From hosting to updates to marketing, we\'re your long-term technology partner — not just a one-off supplier.',
+      'We\'re available after your site goes live — not just during the build.',
   },
 ]
 
@@ -53,10 +53,10 @@ export default function WhyUs() {
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-amber-500 text-sm font-semibold uppercase tracking-widest">Why Borough Web Co.</span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-navy-900">
-            A technology partner, not just a supplier
+            Clear. Reliable. Local.
           </h2>
           <p className="mt-4 text-navy-500 text-lg">
-            We combine technical expertise with genuine local commitment to deliver results that matter.
+            We combine modern technology with genuine local commitment to deliver websites that perform.
           </p>
         </div>
 

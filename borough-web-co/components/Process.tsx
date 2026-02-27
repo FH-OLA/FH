@@ -1,27 +1,27 @@
 const steps = [
   {
     number: '01',
-    title: 'Discovery Call',
+    title: 'Discovery',
     description:
-      'We start with a free consultation to understand your business, goals, and what success looks like for you.',
+      'We discuss your goals, audience and requirements.',
   },
   {
     number: '02',
-    title: 'Proposal & Quote',
+    title: 'Fixed Quote',
     description:
-      'We send a clear, itemised proposal with a fixed price and realistic timeline — no vague estimates.',
+      'You receive a clear price and timeline.',
   },
   {
     number: '03',
     title: 'Design & Build',
     description:
-      'Our team gets to work. You receive regular updates and can give feedback at every stage of the process.',
+      'We create your site and keep you updated throughout.',
   },
   {
     number: '04',
-    title: 'Launch & Grow',
+    title: 'Launch & Support',
     description:
-      'We launch your project and stick around — monitoring performance, making updates, and helping you scale.',
+      'We launch your website and provide optional ongoing support.',
   },
 ]
 
@@ -34,9 +34,6 @@ export default function Process() {
           <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-navy-900">
             Simple, straightforward process
           </h2>
-          <p className="mt-4 text-navy-500 text-lg">
-            From first contact to a live, growing digital presence — here&apos;s how we work.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
