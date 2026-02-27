@@ -1,7 +1,7 @@
 const plans = [
   {
     name: 'Starter',
-    price: '£299',
+    price: '£399',
     description: 'Get your business online quickly with a clean, professional site.',
     features: [
       'Up to 3 pages',
@@ -15,7 +15,7 @@ const plans = [
   },
   {
     name: 'Business',
-    price: '£499',
+    price: '£599',
     description: 'A fully optimised site built to attract and convert customers.',
     features: [
       'Up to 6 pages',
