@@ -1,10 +1,8 @@
 const services = [
-  'Web Design & Development',
-  'Mobile App Development',
-  'E-Commerce Solutions',
-  'SEO & Digital Marketing',
-  'IT Consultancy',
-  'Branding & Design',
+  'Starter Website',
+  'Business Website',
+  'E-Commerce Website',
+  'Website Maintenance',
 ]
 
 export default function Footer() {
