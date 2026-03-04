@@ -14,7 +14,9 @@ env/
 
 # Output files
 *.csv
-*.json
+# Exclude JSON data exports but not project config files
+bolton_businesses*.json
+find_businesses*.json
 
 # Environment
 .env
