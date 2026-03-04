@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
 
     const ownerHtml = `
       <div style="font-family:sans-serif;max-width:600px;margin:0 auto;background:#111;color:#f0f0f0;padding:32px;border-radius:8px;">
-        <h2 style="color:#1f6f3e;margin-top:0;">New Booking Request – Red 2 Black</h2>
+        <h2 style="color:#cc1a1a;margin-top:0;">New Booking Request – Red 2 Black</h2>
         <table style="width:100%;border-collapse:collapse;font-size:14px;">
           <tr style="border-bottom:1px solid #2a2a2a;"><td style="padding:10px 0;color:#999;">Booking Type</td><td style="padding:10px 0;font-weight:600;">${bookingType}</td></tr>
           <tr style="border-bottom:1px solid #2a2a2a;"><td style="padding:10px 0;color:#999;">Date</td><td style="padding:10px 0;font-weight:600;">${date}</td></tr>
@@ -46,7 +46,7 @@ export async function POST(request: NextRequest) {
 
     const customerHtml = `
       <div style="font-family:sans-serif;max-width:600px;margin:0 auto;background:#111;color:#f0f0f0;padding:32px;border-radius:8px;">
-        <h2 style="color:#1f6f3e;margin-top:0;">Booking Request Received</h2>
+        <h2 style="color:#cc1a1a;margin-top:0;">Booking Request Received</h2>
         <p>Hi ${name},</p>
         <p>Thank you for your booking request at <strong>Red 2 Black Snooker</strong>. We've received your request and will confirm your booking shortly.</p>
         <div style="background:#1a1a1a;border:1px solid #2a2a2a;border-radius:6px;padding:20px;margin:20px 0;">
@@ -54,7 +54,7 @@ export async function POST(request: NextRequest) {
           <p style="margin:4px 0;"><strong>${bookingType}</strong></p>
           <p style="margin:4px 0;color:#aaa;">${date} at ${startTime} – ${duration}</p>
         </div>
-        <p>If you have any questions, please call us: <a href="tel:+441204381157" style="color:#1f6f3e;">01204 381157</a></p>
+        <p>If you have any questions, please call us: <a href="tel:+441204381157" style="color:#cc1a1a;">01204 381157</a></p>
         <p style="margin-top:24px;font-size:12px;color:#555;">Red 2 Black Snooker Ltd · Coe Street · Bolton</p>
       </div>
     `

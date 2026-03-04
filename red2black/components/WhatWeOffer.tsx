@@ -2,7 +2,7 @@ const offerings = [
   {
     icon: (
       <svg
-        className="w-8 h-8 text-brand-green"
+        className="w-8 h-8 text-brand-red"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -19,7 +19,7 @@ const offerings = [
   {
     icon: (
       <svg
-        className="w-8 h-8 text-brand-green"
+        className="w-8 h-8 text-brand-red"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -37,7 +37,7 @@ const offerings = [
   {
     icon: (
       <svg
-        className="w-8 h-8 text-brand-green"
+        className="w-8 h-8 text-brand-red"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -73,10 +73,10 @@ export default function WhatWeOffer() {
           {offerings.map((item) => (
             <div
               key={item.title}
-              className="bg-brand-card border border-brand-border rounded-lg p-8 hover:border-brand-green transition-colors duration-300 group"
+              className="bg-brand-card border border-brand-border rounded-lg p-8 hover:border-brand-red transition-colors duration-300 group"
             >
               <div className="mb-5">{item.icon}</div>
-              <h3 className="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brand-green transition-colors">
+              <h3 className="font-heading font-bold text-2xl text-white mb-3 group-hover:text-brand-red transition-colors">
                 {item.title}
               </h3>
               <p className="text-white/55 text-sm leading-relaxed">

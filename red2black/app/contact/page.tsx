@@ -57,12 +57,12 @@ export default function ContactPage() {
             href="tel:+441204381157"
             className="inline-flex items-center gap-4 group"
           >
-            <div className="w-14 h-14 bg-brand-green rounded-full flex items-center justify-center group-hover:bg-brand-green-dark transition-colors">
+            <div className="w-14 h-14 bg-brand-red rounded-full flex items-center justify-center group-hover:bg-brand-red-dark transition-colors">
               <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
             </div>
-            <span className="font-heading font-bold text-4xl sm:text-5xl text-white group-hover:text-brand-green transition-colors">
+            <span className="font-heading font-bold text-4xl sm:text-5xl text-white group-hover:text-brand-red transition-colors">
               01204 381157
             </span>
           </a>
@@ -74,7 +74,7 @@ export default function ContactPage() {
           <div className="bg-brand-card border border-brand-border rounded-lg p-8">
             {status === 'success' ? (
               <div className="text-center py-10">
-                <div className="w-14 h-14 bg-brand-green rounded-full flex items-center justify-center mx-auto mb-5">
+                <div className="w-14 h-14 bg-brand-red rounded-full flex items-center justify-center mx-auto mb-5">
                   <svg className="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                   </svg>
@@ -88,7 +88,7 @@ export default function ContactPage() {
                 <form onSubmit={handleSubmit} className="space-y-5">
                   <div>
                     <label className="block text-white/70 text-sm font-medium mb-2">
-                      Name <span className="text-brand-green">*</span>
+                      Name <span className="text-brand-red">*</span>
                     </label>
                     <input
                       type="text"
@@ -97,12 +97,12 @@ export default function ContactPage() {
                       onChange={handleChange}
                       required
                       placeholder="Your name"
-                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors"
+                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors"
                     />
                   </div>
                   <div>
                     <label className="block text-white/70 text-sm font-medium mb-2">
-                      Email <span className="text-brand-green">*</span>
+                      Email <span className="text-brand-red">*</span>
                     </label>
                     <input
                       type="email"
@@ -111,12 +111,12 @@ export default function ContactPage() {
                       onChange={handleChange}
                       required
                       placeholder="you@example.com"
-                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors"
+                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors"
                     />
                   </div>
                   <div>
                     <label className="block text-white/70 text-sm font-medium mb-2">
-                      Message <span className="text-brand-green">*</span>
+                      Message <span className="text-brand-red">*</span>
                     </label>
                     <textarea
                       name="message"
@@ -125,7 +125,7 @@ export default function ContactPage() {
                       required
                       rows={5}
                       placeholder="How can we help?"
-                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors resize-none"
+                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors resize-none"
                     />
                   </div>
                   {status === 'error' && (
@@ -134,7 +134,7 @@ export default function ContactPage() {
                   <button
                     type="submit"
                     disabled={status === 'loading'}
-                    className="w-full bg-brand-green hover:bg-brand-green-dark disabled:opacity-60 text-white font-bold text-base py-3.5 rounded transition-colors"
+                    className="w-full bg-brand-red hover:bg-brand-red-dark disabled:opacity-60 text-white font-bold text-base py-3.5 rounded transition-colors"
                   >
                     {status === 'loading' ? 'Sending...' : 'Send Message'}
                   </button>
@@ -168,7 +168,7 @@ export default function ContactPage() {
                   href="https://maps.google.com/?q=Coe+Street,+Bolton"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-3 text-brand-green hover:text-brand-green-light text-sm font-medium transition-colors"
+                  className="inline-block mt-3 text-brand-red hover:text-brand-red-light text-sm font-medium transition-colors"
                 >
                   Open in Google Maps →
                 </a>

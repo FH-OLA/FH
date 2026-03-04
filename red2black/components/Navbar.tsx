@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-brand-green font-heading font-bold text-2xl tracking-wider leading-none">
+            <span className="text-brand-red font-heading font-bold text-2xl tracking-wider leading-none">
               RED 2 BLACK
             </span>
             <span className="hidden sm:block text-white/40 text-xs uppercase tracking-widest mt-1">
@@ -57,7 +57,7 @@ export default function Navbar() {
             </a>
             <Link
               href="/book"
-              className="bg-brand-green hover:bg-brand-green-dark text-white font-semibold text-sm px-5 py-2 rounded transition-colors duration-200"
+              className="bg-brand-red hover:bg-brand-red-dark text-white font-semibold text-sm px-5 py-2 rounded transition-colors duration-200"
             >
               Book Now
             </Link>
@@ -100,7 +100,7 @@ export default function Navbar() {
           <div className="pt-2 border-t border-brand-border">
             <Link
               href="/book"
-              className="block w-full text-center bg-brand-green hover:bg-brand-green-dark text-white font-semibold px-5 py-2.5 rounded transition-colors"
+              className="block w-full text-center bg-brand-red hover:bg-brand-red-dark text-white font-semibold px-5 py-2.5 rounded transition-colors"
               onClick={() => setMenuOpen(false)}
             >
               Book a Table

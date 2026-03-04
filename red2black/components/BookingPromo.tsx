@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function BookingPromo() {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-brand-green">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-red-to-black">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="font-heading font-bold text-4xl sm:text-5xl text-white mb-6">
           Reserve Your Table in Advance
@@ -13,7 +13,7 @@ export default function BookingPromo() {
         </p>
         <Link
           href="/book"
-          className="inline-block bg-white hover:bg-white/90 text-brand-green font-bold text-lg px-10 py-4 rounded transition-colors duration-200"
+          className="inline-block bg-white hover:bg-white/90 text-brand-red font-bold text-lg px-10 py-4 rounded transition-colors duration-200"
         >
           Book Now
         </Link>

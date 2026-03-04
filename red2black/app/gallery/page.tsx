@@ -12,7 +12,7 @@ export default function GalleryPage() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-14">
-          <p className="text-brand-green font-heading font-semibold uppercase tracking-widest text-sm mb-4">
+          <p className="text-brand-red font-heading font-semibold uppercase tracking-widest text-sm mb-4">
             The Venue
           </p>
           <h1 className="font-heading font-bold text-5xl sm:text-6xl text-white mb-4">
@@ -74,7 +74,7 @@ export default function GalleryPage() {
           </p>
           <a
             href="/contact"
-            className="inline-block border border-brand-green text-brand-green hover:bg-brand-green hover:text-white font-semibold px-7 py-3 rounded transition-all duration-200"
+            className="inline-block border border-brand-red text-brand-red hover:bg-brand-red hover:text-white font-semibold px-7 py-3 rounded transition-all duration-200"
           >
             Get In Touch
           </a>

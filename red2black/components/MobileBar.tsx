@@ -26,7 +26,7 @@ export default function MobileBar() {
       <div className="w-px bg-brand-border" />
       <Link
         href="/book"
-        className="flex-1 flex flex-col items-center justify-center py-3 gap-1 bg-brand-green hover:bg-brand-green-dark text-white transition-colors"
+        className="flex-1 flex flex-col items-center justify-center py-3 gap-1 bg-red-to-black hover:bg-red-to-black-dark text-white transition-colors"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

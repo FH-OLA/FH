@@ -70,8 +70,8 @@ export default function BookPage() {
   if (status === 'success') {
     return (
       <div className="min-h-screen flex items-center justify-center px-4 py-20">
-        <div className="max-w-lg w-full text-center bg-brand-card border border-brand-green rounded-lg p-12">
-          <div className="w-16 h-16 bg-brand-green rounded-full flex items-center justify-center mx-auto mb-6">
+        <div className="max-w-lg w-full text-center bg-brand-card border border-brand-red rounded-lg p-12">
+          <div className="w-16 h-16 bg-brand-red rounded-full flex items-center justify-center mx-auto mb-6">
             <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
             </svg>
@@ -112,14 +112,14 @@ export default function BookPage() {
           {/* Booking Type */}
           <div>
             <label className="block text-white/70 text-sm font-medium mb-2">
-              Booking Type <span className="text-brand-green">*</span>
+              Booking Type <span className="text-brand-red">*</span>
             </label>
             <select
               name="bookingType"
               value={form.bookingType}
               onChange={handleChange}
               required
-              className="w-full bg-brand-card border border-brand-border text-white rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors"
+              className="w-full bg-brand-card border border-brand-border text-white rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors"
             >
               <option value="" disabled>Select booking type</option>
               <option value="Snooker Table">Snooker Table</option>
@@ -133,7 +133,7 @@ export default function BookPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
               <label className="block text-white/70 text-sm font-medium mb-2">
-                Date <span className="text-brand-green">*</span>
+                Date <span className="text-brand-red">*</span>
               </label>
               <input
                 type="date"
@@ -142,19 +142,19 @@ export default function BookPage() {
                 onChange={handleChange}
                 required
                 min={new Date().toISOString().split('T')[0]}
-                className="w-full bg-brand-card border border-brand-border text-white rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors [color-scheme:dark]"
+                className="w-full bg-brand-card border border-brand-border text-white rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors [color-scheme:dark]"
               />
             </div>
             <div>
               <label className="block text-white/70 text-sm font-medium mb-2">
-                Start Time <span className="text-brand-green">*</span>
+                Start Time <span className="text-brand-red">*</span>
               </label>
               <select
                 name="startTime"
                 value={form.startTime}
                 onChange={handleChange}
                 required
-                className="w-full bg-brand-card border border-brand-border text-white rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors"
+                className="w-full bg-brand-card border border-brand-border text-white rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors"
               >
                 <option value="" disabled>Select time</option>
                 {timeSlots.map((t) => (
@@ -167,14 +167,14 @@ export default function BookPage() {
           {/* Duration */}
           <div>
             <label className="block text-white/70 text-sm font-medium mb-2">
-              Duration <span className="text-brand-green">*</span>
+              Duration <span className="text-brand-red">*</span>
             </label>
             <select
               name="duration"
               value={form.duration}
               onChange={handleChange}
               required
-              className="w-full bg-brand-card border border-brand-border text-white rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors"
+              className="w-full bg-brand-card border border-brand-border text-white rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors"
             >
               <option value="" disabled>Select duration</option>
               <option value="1 Hour">1 Hour</option>
@@ -188,7 +188,7 @@ export default function BookPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
               <label className="block text-white/70 text-sm font-medium mb-2">
-                Name <span className="text-brand-green">*</span>
+                Name <span className="text-brand-red">*</span>
               </label>
               <input
                 type="text"
@@ -197,12 +197,12 @@ export default function BookPage() {
                 onChange={handleChange}
                 required
                 placeholder="Your full name"
-                className="w-full bg-brand-card border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors"
+                className="w-full bg-brand-card border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors"
               />
             </div>
             <div>
               <label className="block text-white/70 text-sm font-medium mb-2">
-                Phone Number <span className="text-brand-green">*</span>
+                Phone Number <span className="text-brand-red">*</span>
               </label>
               <input
                 type="tel"
@@ -211,7 +211,7 @@ export default function BookPage() {
                 onChange={handleChange}
                 required
                 placeholder="07700 000000"
-                className="w-full bg-brand-card border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors"
+                className="w-full bg-brand-card border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors"
               />
             </div>
           </div>
@@ -219,7 +219,7 @@ export default function BookPage() {
           {/* Email */}
           <div>
             <label className="block text-white/70 text-sm font-medium mb-2">
-              Email Address <span className="text-brand-green">*</span>
+              Email Address <span className="text-brand-red">*</span>
             </label>
             <input
               type="email"
@@ -228,7 +228,7 @@ export default function BookPage() {
               onChange={handleChange}
               required
               placeholder="you@example.com"
-              className="w-full bg-brand-card border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors"
+              className="w-full bg-brand-card border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors"
             />
           </div>
 
@@ -246,7 +246,7 @@ export default function BookPage() {
               min={1}
               max={20}
               placeholder="e.g. 2"
-              className="w-full bg-brand-card border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors"
+              className="w-full bg-brand-card border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors"
             />
           </div>
 
@@ -262,7 +262,7 @@ export default function BookPage() {
               onChange={handleChange}
               rows={4}
               placeholder="Any special requirements or requests..."
-              className="w-full bg-brand-card border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors resize-none"
+              className="w-full bg-brand-card border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors resize-none"
             />
           </div>
 
@@ -275,7 +275,7 @@ export default function BookPage() {
               checked={form.confirmed}
               onChange={handleChange}
               required
-              className="mt-1 accent-brand-green w-4 h-4 flex-shrink-0"
+              className="mt-1 accent-brand-red w-4 h-4 flex-shrink-0"
             />
             <label htmlFor="confirmed" className="text-white/60 text-sm leading-relaxed cursor-pointer">
               I understand this is a booking request and will be confirmed by
@@ -295,7 +295,7 @@ export default function BookPage() {
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="w-full bg-brand-green hover:bg-brand-green-dark disabled:opacity-60 disabled:cursor-not-allowed text-white font-bold text-lg py-4 rounded transition-colors duration-200"
+            className="w-full bg-brand-red hover:bg-brand-red-dark disabled:opacity-60 disabled:cursor-not-allowed text-white font-bold text-lg py-4 rounded transition-colors duration-200"
           >
             {status === 'loading' ? 'Sending Request...' : 'Request Booking'}
           </button>

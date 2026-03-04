@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
-            <span className="text-brand-green font-heading font-bold text-2xl tracking-wider">
+            <span className="text-brand-red font-heading font-bold text-2xl tracking-wider">
               RED 2 BLACK
             </span>
             <p className="text-white/50 text-sm mt-2">Snooker Hall, Bolton</p>
@@ -53,7 +53,7 @@ export default function Footer() {
             <p className="text-white/50 text-sm">Bolton</p>
             <a
               href="tel:+441204381157"
-              className="block text-brand-green hover:text-brand-green-light text-sm mt-3 font-medium transition-colors"
+              className="block text-brand-red hover:text-brand-red-light text-sm mt-3 font-medium transition-colors"
             >
               Call: 01204 381157
             </a>

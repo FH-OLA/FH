@@ -19,12 +19,12 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto">
-        <p className="text-brand-green font-heading font-semibold text-lg uppercase tracking-widest mb-4">
+        <p className="text-brand-red font-heading font-semibold text-lg uppercase tracking-widest mb-4">
           Bolton&apos;s Premier Snooker Hall
         </p>
         <h1 className="font-heading font-bold text-5xl sm:text-6xl lg:text-7xl text-white leading-tight mb-6 text-balance">
           Snooker Hall in Bolton –{' '}
-          <span className="text-brand-green">Red 2 Black</span>
+          <span className="text-brand-red">Red 2 Black</span>
         </h1>
         <p className="text-white/70 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
           Professional tables. Relaxed atmosphere. Online booking available.
@@ -32,7 +32,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/book"
-            className="bg-brand-green hover:bg-brand-green-dark text-white font-bold text-lg px-8 py-4 rounded transition-colors duration-200"
+            className="bg-brand-red hover:bg-brand-red-dark text-white font-bold text-lg px-8 py-4 rounded transition-colors duration-200"
           >
             Book a Table
           </Link>

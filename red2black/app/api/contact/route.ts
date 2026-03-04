@@ -21,7 +21,7 @@ export async function POST(request: NextRequest) {
       subject: `New Contact Message from ${name}`,
       html: `
         <div style="font-family:sans-serif;max-width:600px;background:#111;color:#f0f0f0;padding:32px;border-radius:8px;">
-          <h2 style="color:#1f6f3e;margin-top:0;">New Contact Message</h2>
+          <h2 style="color:#cc1a1a;margin-top:0;">New Contact Message</h2>
           <p><strong>Name:</strong> ${name}</p>
           <p><strong>Email:</strong> ${email}</p>
           <p><strong>Message:</strong></p>

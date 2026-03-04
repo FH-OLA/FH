@@ -65,7 +65,7 @@ export default function Location() {
                 </p>
                 <a
                   href="tel:+441204381157"
-                  className="text-brand-green hover:text-brand-green-light text-sm font-semibold transition-colors"
+                  className="text-brand-red hover:text-brand-red-light text-sm font-semibold transition-colors"
                 >
                   01204 381157
                 </a>
@@ -74,7 +74,7 @@ export default function Location() {
                 href="https://maps.google.com/?q=Coe+Street,+Bolton"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center border border-brand-green text-brand-green hover:bg-brand-green hover:text-white text-sm font-semibold py-2.5 rounded transition-all duration-200 mt-2"
+                className="block w-full text-center border border-brand-red text-brand-red hover:bg-brand-red hover:text-white text-sm font-semibold py-2.5 rounded transition-all duration-200 mt-2"
               >
                 Get Directions
               </a>

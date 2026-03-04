@@ -42,7 +42,7 @@ export default function LeaguesPage() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-brand-green font-heading font-semibold uppercase tracking-widest text-sm mb-4">
+          <p className="text-brand-red font-heading font-semibold uppercase tracking-widest text-sm mb-4">
             Community &amp; Competition
           </p>
           <h1 className="font-heading font-bold text-5xl sm:text-6xl text-white mb-6">
@@ -80,7 +80,7 @@ export default function LeaguesPage() {
                 key={item.title}
                 className="flex gap-5 bg-brand-card border border-brand-border rounded-lg p-6"
               >
-                <div className="flex-shrink-0 w-2 rounded-full bg-brand-green" />
+                <div className="flex-shrink-0 w-2 rounded-full bg-brand-red" />
                 <div>
                   <h3 className="font-heading font-bold text-xl text-white mb-2">
                     {item.title}
@@ -98,7 +98,7 @@ export default function LeaguesPage() {
           <div className="bg-brand-card border border-brand-border rounded-lg p-8">
             {status === 'success' ? (
               <div className="text-center py-12">
-                <div className="w-14 h-14 bg-brand-green rounded-full flex items-center justify-center mx-auto mb-5">
+                <div className="w-14 h-14 bg-brand-red rounded-full flex items-center justify-center mx-auto mb-5">
                   <svg className="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                   </svg>
@@ -117,7 +117,7 @@ export default function LeaguesPage() {
                 <form onSubmit={handleSubmit} className="space-y-5">
                   <div>
                     <label className="block text-white/70 text-sm font-medium mb-2">
-                      Name <span className="text-brand-green">*</span>
+                      Name <span className="text-brand-red">*</span>
                     </label>
                     <input
                       type="text"
@@ -126,12 +126,12 @@ export default function LeaguesPage() {
                       onChange={handleChange}
                       required
                       placeholder="Your name"
-                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors"
+                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors"
                     />
                   </div>
                   <div>
                     <label className="block text-white/70 text-sm font-medium mb-2">
-                      Phone <span className="text-brand-green">*</span>
+                      Phone <span className="text-brand-red">*</span>
                     </label>
                     <input
                       type="tel"
@@ -140,12 +140,12 @@ export default function LeaguesPage() {
                       onChange={handleChange}
                       required
                       placeholder="07700 000000"
-                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors"
+                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors"
                     />
                   </div>
                   <div>
                     <label className="block text-white/70 text-sm font-medium mb-2">
-                      Email <span className="text-brand-green">*</span>
+                      Email <span className="text-brand-red">*</span>
                     </label>
                     <input
                       type="email"
@@ -154,7 +154,7 @@ export default function LeaguesPage() {
                       onChange={handleChange}
                       required
                       placeholder="you@example.com"
-                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors"
+                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors"
                     />
                   </div>
                   <div>
@@ -167,7 +167,7 @@ export default function LeaguesPage() {
                       onChange={handleChange}
                       rows={4}
                       placeholder="Tell us about what you're interested in..."
-                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-green transition-colors resize-none"
+                      className="w-full bg-brand-dark border border-brand-border text-white placeholder:text-white/25 rounded px-4 py-3 focus:outline-none focus:border-brand-red transition-colors resize-none"
                     />
                   </div>
                   {status === 'error' && (
@@ -176,7 +176,7 @@ export default function LeaguesPage() {
                   <button
                     type="submit"
                     disabled={status === 'loading'}
-                    className="w-full bg-brand-green hover:bg-brand-green-dark disabled:opacity-60 text-white font-bold text-base py-3.5 rounded transition-colors"
+                    className="w-full bg-brand-red hover:bg-brand-red-dark disabled:opacity-60 text-white font-bold text-base py-3.5 rounded transition-colors"
                   >
                     {status === 'loading' ? 'Sending...' : 'Send Enquiry'}
                   </button>

@@ -7,7 +7,7 @@ export default function Community() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text */}
           <div>
-            <p className="text-brand-green font-heading font-semibold uppercase tracking-widest text-sm mb-4">
+            <p className="text-brand-red font-heading font-semibold uppercase tracking-widest text-sm mb-4">
               Community
             </p>
             <h2 className="font-heading font-bold text-4xl sm:text-5xl text-white mb-6 leading-tight">
@@ -20,7 +20,7 @@ export default function Community() {
             </p>
             <Link
               href="/leagues"
-              className="inline-block border border-brand-green text-brand-green hover:bg-brand-green hover:text-white font-semibold text-base px-7 py-3 rounded transition-all duration-200"
+              className="inline-block border border-brand-red text-brand-red hover:bg-brand-red hover:text-white font-semibold text-base px-7 py-3 rounded transition-all duration-200"
             >
               Enquire About Leagues
             </Link>
@@ -38,7 +38,7 @@ export default function Community() {
                 key={stat.label}
                 className="bg-brand-card border border-brand-border rounded-lg p-6 text-center"
               >
-                <p className="font-heading font-bold text-4xl text-brand-green">
+                <p className="font-heading font-bold text-4xl text-brand-red">
                   {stat.value}
                 </p>
                 <p className="text-white/50 text-sm mt-2">{stat.label}</p>
