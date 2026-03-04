@@ -4,7 +4,7 @@ export default function MobileBar() {
   return (
     <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-brand-darker border-t border-brand-border flex">
       <a
-        href="tel:+441204000000"
+        href="tel:+441204381157"
         className="flex-1 flex flex-col items-center justify-center py-3 gap-1 text-white/70 hover:text-white hover:bg-brand-card transition-colors"
       >
         <svg

@@ -64,10 +64,10 @@ export default function Location() {
                   Phone
                 </p>
                 <a
-                  href="tel:+441204000000"
+                  href="tel:+441204381157"
                   className="text-brand-green hover:text-brand-green-light text-sm font-semibold transition-colors"
                 >
-                  01204 000 000
+                  01204 381157
                 </a>
               </div>
               <a

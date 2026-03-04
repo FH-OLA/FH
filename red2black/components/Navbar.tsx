@@ -50,7 +50,7 @@ export default function Navbar() {
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="tel:+441204000000"
+              href="tel:+441204381157"
               className="text-white/60 hover:text-white text-sm transition-colors"
             >
               Call Now

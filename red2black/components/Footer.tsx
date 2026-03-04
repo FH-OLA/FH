@@ -52,10 +52,10 @@ export default function Footer() {
             <p className="text-white/50 text-sm">Coe Street</p>
             <p className="text-white/50 text-sm">Bolton</p>
             <a
-              href="tel:+441204000000"
+              href="tel:+441204381157"
               className="block text-brand-green hover:text-brand-green-light text-sm mt-3 font-medium transition-colors"
             >
-              Call: 01204 000 000
+              Call: 01204 381157
             </a>
             <div className="mt-4 space-y-1 text-white/40 text-sm">
               <p>Mon – Thu: 10:00 – 23:00</p>

@@ -54,7 +54,7 @@ export async function POST(request: NextRequest) {
           <p style="margin:4px 0;"><strong>${bookingType}</strong></p>
           <p style="margin:4px 0;color:#aaa;">${date} at ${startTime} – ${duration}</p>
         </div>
-        <p>If you have any questions, please call us: <a href="tel:+441204000000" style="color:#1f6f3e;">01204 000 000</a></p>
+        <p>If you have any questions, please call us: <a href="tel:+441204381157" style="color:#1f6f3e;">01204 381157</a></p>
         <p style="margin-top:24px;font-size:12px;color:#555;">Red 2 Black Snooker Ltd · Coe Street · Bolton</p>
       </div>
     `

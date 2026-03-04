@@ -54,7 +54,7 @@ export default function ContactPage() {
         {/* Large phone CTA */}
         <div className="text-center mb-16">
           <a
-            href="tel:+441204000000"
+            href="tel:+441204381157"
             className="inline-flex items-center gap-4 group"
           >
             <div className="w-14 h-14 bg-brand-green rounded-full flex items-center justify-center group-hover:bg-brand-green-dark transition-colors">
@@ -63,7 +63,7 @@ export default function ContactPage() {
               </svg>
             </div>
             <span className="font-heading font-bold text-4xl sm:text-5xl text-white group-hover:text-brand-green transition-colors">
-              01204 000 000
+              01204 381157
             </span>
           </a>
           <p className="text-white/30 text-sm mt-3">Tap to call</p>
