@@ -3,9 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 
 export const metadata: Metadata = {
-  title: "About Us | Sulli's Mega Driveways Bolton",
+  title: "About Us | Sulli's Mega Driveways Bolton & Greater Manchester",
   description:
-    "Sulli's Mega Driveways is a local Bolton driveway and paving specialist committed to delivering reliable, high-quality workmanship.",
+    "Sulli's Mega Driveways is a local driveway and paving specialist serving Bolton and Greater Manchester, committed to delivering reliable, high-quality workmanship.",
 }
 
 const values = [
@@ -38,8 +38,8 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
             <div>
               <p className="text-white/70 text-lg leading-relaxed mb-6">
-                Sulli&apos;s Mega Driveways is a local Bolton driveway and paving specialist committed
-                to delivering reliable, high-quality workmanship.
+                Sulli&apos;s Mega Driveways is a local driveway and paving specialist serving Bolton
+                and Greater Manchester, committed to delivering reliable, high-quality workmanship.
               </p>
               <p className="text-white/65 text-lg leading-relaxed mb-6">
                 We understand that a driveway is more than just somewhere to park — it&apos;s the first
@@ -87,8 +87,8 @@ export default function AboutPage() {
 
               <div className="mt-8 pt-6 border-t border-brand-border">
                 <p className="text-white/50 text-sm leading-relaxed">
-                  If you&apos;re looking for dependable driveway installers in Bolton, you&apos;re in safe
-                  hands.
+                  If you&apos;re looking for dependable driveway installers across Bolton or Greater
+                  Manchester, you&apos;re in safe hands.
                 </p>
               </div>
             </div>

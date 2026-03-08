@@ -3,9 +3,9 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 
 export const metadata: Metadata = {
-  title: "Gallery | Sulli's Mega Driveways Bolton",
+  title: "Gallery | Sulli's Mega Driveways Bolton & Greater Manchester",
   description:
-    "Browse examples of our completed driveways and paving projects across Bolton and surrounding areas.",
+    "Browse examples of our completed driveways and paving projects across Bolton and Greater Manchester.",
 }
 
 export default function GalleryPage() {
@@ -24,7 +24,7 @@ export default function GalleryPage() {
           </h1>
           <p className="text-white/60 text-lg max-w-2xl">
             Browse examples of our completed driveways and paving projects across Bolton and
-            surrounding areas.
+            Greater Manchester.
           </p>
           <p className="text-brand-orange font-heading font-semibold text-xl mt-3">
             Quality. Precision. Professional Finish.

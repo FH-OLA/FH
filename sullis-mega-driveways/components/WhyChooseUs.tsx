@@ -1,5 +1,5 @@
 const reasons = [
-  { label: 'Local Bolton-Based Team' },
+  { label: 'Local Greater Manchester Team' },
   { label: 'Fully Insured Professionals' },
   { label: 'Free, No-Obligation Quotes' },
   { label: 'High-Quality Materials' },
@@ -46,7 +46,7 @@ export default function WhyChooseUs() {
           {/* Right: stat cards */}
           <div className="grid grid-cols-2 gap-4">
             {[
-              { value: '100%', label: 'Locally Based in Bolton' },
+              { value: '100%', label: 'Locally Based in Greater Manchester' },
               { value: 'FREE', label: 'No-Obligation Quotes' },
               { value: '5★', label: 'Quality Workmanship' },
               { value: '0', label: 'Hidden Surprises' },

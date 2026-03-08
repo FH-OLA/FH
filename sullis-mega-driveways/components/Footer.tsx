@@ -10,8 +10,9 @@ const navLinks = [
 ]
 
 const areas = [
-  'Bolton', 'Farnworth', 'Horwich', 'Westhoughton',
-  'Little Lever', 'Lostock', 'Blackrod',
+  'Bolton', 'Bury', 'Wigan', 'Leigh',
+  'Farnworth', 'Horwich', 'Westhoughton', 'Atherton',
+  'Worsley', 'Eccles',
 ]
 
 export default function Footer() {
@@ -29,7 +30,7 @@ export default function Footer() {
                 MEGA DRIVEWAYS
               </span>
             </div>
-            <p className="text-white/50 text-sm mt-2">Driveway Specialists, Bolton</p>
+            <p className="text-white/50 text-sm mt-2">Driveway Specialists, Greater Manchester</p>
             <p className="text-white/40 text-sm mt-4 leading-relaxed">
               Quality driveways, block paving and tarmac installed by experienced local professionals.
             </p>

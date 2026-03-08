@@ -3,20 +3,26 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 
 export const metadata: Metadata = {
-  title: "Areas We Cover | Sulli's Mega Driveways Bolton",
+  title: "Areas We Cover | Sulli's Mega Driveways Bolton & Greater Manchester",
   description:
-    "Sulli's Mega Driveways serves Bolton, Farnworth, Horwich, Westhoughton, Little Lever, Lostock, Blackrod and surrounding Greater Manchester areas.",
+    "Sulli's Mega Driveways serves Bolton, Bury, Wigan, Leigh, Farnworth, Horwich, Westhoughton, Atherton, Worsley, Eccles and surrounding Greater Manchester areas.",
 }
 
 const areas = [
   { name: 'Bolton', primary: true },
+  { name: 'Bury', primary: true },
+  { name: 'Wigan', primary: true },
+  { name: 'Leigh', primary: false },
   { name: 'Farnworth', primary: false },
   { name: 'Horwich', primary: false },
   { name: 'Westhoughton', primary: false },
+  { name: 'Atherton', primary: false },
   { name: 'Little Lever', primary: false },
+  { name: 'Worsley', primary: false },
+  { name: 'Eccles', primary: false },
   { name: 'Lostock', primary: false },
   { name: 'Blackrod', primary: false },
-  { name: 'Surrounding Greater Manchester areas', primary: false },
+  { name: 'And more across Greater Manchester', primary: false },
 ]
 
 export default function AreasPage() {
@@ -31,11 +37,12 @@ export default function AreasPage() {
             <span>Areas We Cover</span>
           </div>
           <h1 className="font-heading font-bold text-5xl md:text-6xl text-white mb-4">
-            Driveway Installers in{' '}
-            <span className="text-brand-orange">Bolton &amp; Surrounding Areas</span>
+            Driveway Installers Across{' '}
+            <span className="text-brand-orange">Greater Manchester</span>
           </h1>
           <p className="text-white/60 text-lg max-w-2xl">
-            We proudly serve homeowners across Bolton and the surrounding Greater Manchester areas.
+            We proudly serve homeowners across Bolton, Bury, Wigan, Leigh and the wider
+            Greater Manchester area.
           </p>
         </div>
       </section>

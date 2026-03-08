@@ -24,13 +24,13 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 bg-brand-orange/10 border border-brand-orange/30 rounded-full px-4 py-1.5 mb-6">
             <span className="w-2 h-2 rounded-full bg-brand-orange" />
             <span className="text-brand-orange text-sm font-medium tracking-wide">
-              Bolton&apos;s Local Driveway Specialists
+              Bolton &amp; Greater Manchester Driveway Specialists
             </span>
           </div>
 
           <h1 className="font-heading font-bold text-5xl md:text-6xl lg:text-7xl text-white leading-tight mb-6">
-            Driveway Specialists in Bolton{' '}
-            <span className="text-brand-orange">You Can Rely On</span>
+            Driveway Specialists Across{' '}
+            <span className="text-brand-orange">Greater Manchester</span>
           </h1>
 
           <p className="text-white/70 text-lg md:text-xl leading-relaxed mb-8 max-w-2xl">
@@ -57,7 +57,7 @@ export default function Hero() {
 
           {/* Trust indicators */}
           <div className="mt-12 flex flex-wrap gap-6">
-            {['Fully Insured', 'Free Quotes', 'Local Bolton Team', 'No Hidden Costs'].map((item) => (
+            {['Fully Insured', 'Free Quotes', 'Local Greater Manchester Team', 'No Hidden Costs'].map((item) => (
               <div key={item} className="flex items-center gap-2">
                 <svg className="w-4 h-4 text-brand-orange flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />

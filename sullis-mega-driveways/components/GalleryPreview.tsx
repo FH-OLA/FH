@@ -6,7 +6,7 @@ export default function GalleryPreview() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="font-heading font-bold text-4xl md:text-5xl text-white mb-4">
-            See Our <span className="text-brand-orange">Recent Work</span> Across Bolton
+            See Our <span className="text-brand-orange">Recent Work</span> Across Greater Manchester
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
             We&apos;re proud of the driveways we build. Take a look at some of our recent installations
