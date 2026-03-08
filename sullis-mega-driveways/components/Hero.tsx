@@ -9,14 +9,14 @@ export default function Hero() {
           className="absolute inset-0"
           style={{
             backgroundImage:
-              'repeating-linear-gradient(45deg, #f97316 0, #f97316 1px, transparent 0, transparent 50%)',
+              'repeating-linear-gradient(45deg, #16a34a 0, #16a34a 1px, transparent 0, transparent 50%)',
             backgroundSize: '20px 20px',
           }}
         />
       </div>
 
-      {/* Orange accent bar */}
-      <div className="absolute top-0 left-0 right-0 h-1 bg-brand-orange" />
+      {/* Accent bar */}
+      <div className="absolute top-0 left-0 right-0 h-1" style={{background: 'linear-gradient(to right, #dc2626, #16a34a)'}} />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
         <div className="max-w-3xl">

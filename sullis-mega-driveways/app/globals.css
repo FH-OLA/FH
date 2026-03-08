@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background-color: #111111;
+  background-color: #0d1a12;
   color: #f0f0f0;
   font-family: 'Barlow', sans-serif;
   padding-bottom: env(safe-area-inset-bottom);
@@ -30,10 +30,10 @@ h3 {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #111111;
+  background: #0d1a12;
 }
 ::-webkit-scrollbar-thumb {
-  background: #f97316;
+  background: #16a34a;
   border-radius: 3px;
 }
 

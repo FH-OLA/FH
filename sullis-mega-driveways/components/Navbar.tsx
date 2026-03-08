@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-brand-orange font-heading font-bold text-2xl tracking-wider leading-none">
+            <span className="text-brand-red font-heading font-bold text-2xl tracking-wider leading-none">
               SULLI'S
             </span>
             <span className="text-white font-heading font-bold text-2xl tracking-wider leading-none">

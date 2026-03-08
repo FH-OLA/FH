@@ -22,7 +22,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-1">
-              <span className="text-brand-orange font-heading font-bold text-2xl tracking-wider">
+              <span className="text-brand-red font-heading font-bold text-2xl tracking-wider">
                 SULLI'S
               </span>
               <span className="text-white font-heading font-bold text-xl tracking-wider ml-1">
